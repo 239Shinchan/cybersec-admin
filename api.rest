@@ -1,0 +1,28 @@
+#-->User 
+POST http://localhost:3000/user HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "demo111",
+    "password":"demoxxx",
+    "cardId":"227892"
+}
+
+####
+//-->Update user 
+PUT http://localhost:3000/user HTTP/1.1
+Content-Type: application/json
+
+{   
+    "id": 3,
+    "password":"demonage11"
+}
+
+####
+//-->Delete User 
+DELETE  http://localhost:3000/user HTTP/1.1
+Content-Type: application/json
+
+{   
+    "id": 4
+}
